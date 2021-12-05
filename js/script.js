@@ -3,8 +3,7 @@ function counter (initialValue = 0) {
     numIncrease : 0,
     numDecrease : 0,
     numGet : 0,
-    getStatistic : 0
-  }
+    }
 
   const funcs = {
       increase (num) {
@@ -26,7 +25,6 @@ function counter (initialValue = 0) {
         return statistic;
       },
       getStatistic () {
-        statistic.getStatistic++;
         return statistic;
       }
   }
